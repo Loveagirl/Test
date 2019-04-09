@@ -38,6 +38,7 @@ app.use(users.routes(), users.allowedMethods())
 
 // error-handling
 app.on('error', (err, ctx) => {
+  console.log("this is add")
   console.error('server error', err, ctx)
 });
 // this is add
