@@ -9,6 +9,9 @@ router.get('/', async (ctx, next) => {
 router.get('/string', async (ctx, next) => {
   ctx.body = 'koa2 string'
 })
+router.get('/student', async (ctx, next) => {
+  ctx.body = 'git test'
+})
 
 router.get('/json', async (ctx, next) => {
   ctx.body = {
