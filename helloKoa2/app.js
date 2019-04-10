@@ -38,7 +38,9 @@ app.use(users.routes(), users.allowedMethods())
 
 // error-handling
 app.on('error', (err, ctx) => {
+
   console.log("egg.js port is 7001")
+
   console.error('server error', err, ctx)
 });
 
