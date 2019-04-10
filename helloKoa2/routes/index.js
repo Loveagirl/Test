@@ -13,10 +13,6 @@ router.get('/student', async (ctx, next) => {
   ctx.body = 'git test'
 })
 
-router.get('/json', async (ctx, next) => {
-  ctx.body = {
-    title: 'koa2 json'
-  }
-})
+
 
 module.exports = router
