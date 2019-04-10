@@ -38,11 +38,8 @@ app.use(users.routes(), users.allowedMethods())
 
 // error-handling
 app.on('error', (err, ctx) => {
-<<<<<<< HEAD
-  console.log("this is add")
-=======
-  console.log("egg.js port is 7001")
->>>>>>> bugfix/changeStyle
+
+
   console.error('server error', err, ctx)
 });
 // this is add
